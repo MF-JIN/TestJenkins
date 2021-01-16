@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+/Temp
+/Library
+/obj
+PackageCache
+Library
