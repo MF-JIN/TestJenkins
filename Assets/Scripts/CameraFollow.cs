@@ -16,6 +16,7 @@ public class CameraFollow : MonoBehaviour
 
 	void Awake ()
 	{
+		//you a sb
 		// Setting up the reference.
 		player = GameObject.FindGameObjectWithTag("Player").transform;
 	}
@@ -23,6 +24,7 @@ public class CameraFollow : MonoBehaviour
 
 	bool CheckXMargin()
 	{
+		//hheeheheh
 		// Returns true if the distance between the camera and the player in the x axis is greater than the x margin.
 		return Mathf.Abs(transform.position.x - player.position.x) > xMargin;
 	}
@@ -30,6 +32,8 @@ public class CameraFollow : MonoBehaviour
 
 	bool CheckYMargin()
 	{
+		var hello = 8;
+		var helloworld = 8;
 		// Returns true if the distance between the camera and the player in the y axis is greater than the y margin.
 		return Mathf.Abs(transform.position.y - player.position.y) > yMargin;
 	}
@@ -37,6 +41,8 @@ public class CameraFollow : MonoBehaviour
 
 	void FixedUpdate ()
 	{
+		var dadsa = 8;
+		var dadaa = 8;
 		TrackPlayer();
 	}
 	
